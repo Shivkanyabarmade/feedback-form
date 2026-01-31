@@ -1,1 +1,56 @@
-NM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Share Your Feedback</title>
+  <link rel="stylesheet" href="form.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="page">
+    <div class="card">
+
+      <!-- Header -->
+      <div class="card-header">
+        <div class="icon">💬</div>
+        <h1>Share Your Feedback</h1>
+        <p>We'd love to hear about your experience with us</p>
+      </div>
+
+      <!-- Form -->
+      <form class="form">
+
+        <h3>Contact Information</h3>
+
+        <label>Full Name <span>*</span></label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email Address <span>*</span></label>
+        <input type="email" placeholder="Enter your email address" required>
+
+
+        <h3>Your Feedback</h3>
+        <label>Tell us about your experience <span>*</span></label>
+        <textarea placeholder="Share your thoughts, suggestions, or any feedback you'd like us to know..." maxlength="1000"></textarea>
+
+        <div class="counter">0 / 1000 characters</div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+          <button type="submit" class="btn-primary">📩 Send Feedback</button>
+          <button type="reset" class="btn-secondary">🔄 Reset Form</button>
+        </div>
+
+        <p class="footer-note">
+          🔒 Your information is secure and will only be used to improve our services.
+        </p>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
